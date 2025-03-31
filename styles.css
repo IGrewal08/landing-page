@@ -1,0 +1,153 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: Roboto, sans-serif;
+}
+
+.header,
+.footer {
+    height: 100px;
+    display: flex;
+    background-color: #1f2937;
+    flex-shrink: 0;
+
+}
+
+.header {
+    justify-content: space-around;
+    align-items: baseline;
+    padding-top: 6px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    list-style-type: none;
+    color: #E5E7EB;
+}
+a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/* inside our container */
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 100px 230px 100px 250px;
+    gap: 100px;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.intro img {
+    width: 990px;
+    height: auto;
+}
+/* intro end */
+
+/* inside information */
+.information {
+    margin: 0px;
+    padding: 80px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 50px 280px;
+    padding: 0;
+    gap: 36px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.info img {
+    margin-bottom: 10px;
+    width: auto;
+    height: 160px;
+    border: 3px solid #3882F6;
+    border-radius: 16px;
+}
+/* information end */
+
+/* inside quote*/
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 120px;
+    background-color: #E5E7EB;
+    flex-shrink: 0;
+}
+
+.quote p {
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    width: 850px;
+
+}
+
+#author {
+    justify-content: right;
+    padding-left: 500px;
+}
+/* quote end */
+
+/* sign-up */
+.sign-up {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    margin: 110px 225px;
+    padding: 50px;
+    flex-shrink: 0;
+}
+/* sign-up end */
+/* container end */
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+button {
+    font-size: 16px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    border-radius: 8px;
+    padding: 5px 35px;
+}
